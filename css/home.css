@@ -46,3 +46,37 @@ nav li a{
 .login a{
     color: var(--grey);
 }
+
+#banner{
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    justify-content: space-around;
+    background-color: #EFEFEF;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.texto header{
+    font-family: "Sora", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+}
+.texto p{
+    font-family: "Open Sans", sans-serif;
+    size: 20px;
+    margin: 10px 0;
+}
+.texto .consulte{
+    padding: 14px 16px;
+    background-color: #00A1FC;
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-size: 16px;
+    margin: 10px 0;
+}

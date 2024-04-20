@@ -77,7 +77,7 @@ nav li a{
 }
 .texto .consulte{
     padding: 14px 16px;
-    background-color: #00A1FC;
+    background-color: var(--blue);
     color: white;
     font-family: "Sora", sans-serif;
     font-size: 16px;
@@ -115,9 +115,9 @@ nav li a{
 .problemas-box .consulte-problemas{
     padding: 7px 8px;
     background-color: #ffffff;
-    border: #00A1FC 1px solid;
+    border: var(--blue) 1px solid;
     border-radius: 10px;
-    color: #00A1FC;
+    color: var(--blue);
     font-family: "Sora", sans-serif;
     font-size: 16px;
     margin: 10px 0;
@@ -140,4 +140,17 @@ nav li a{
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 600;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: var(--light-blue);
+}
+footer p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }

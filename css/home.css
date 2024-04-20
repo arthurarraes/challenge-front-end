@@ -85,7 +85,7 @@ nav li a{
 }
 
 #problemas-comuns {
-    margin: 20px 15px;
+    margin: 50px 15px;
 }
 .problemas-container{
     margin: 20px 30px;
@@ -121,4 +121,23 @@ nav li a{
     font-family: "Sora", sans-serif;
     font-size: 16px;
     margin: 10px 0;
+}
+#ajuda{
+    background-color: #EFEFEF;
+    padding: 20px;
+    text-align: center;
+}
+#ajuda .duvidas-frequentes{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 0.1px solid #dfdfdf;
+}
+#ajuda .duvidas-frequentes h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
 }

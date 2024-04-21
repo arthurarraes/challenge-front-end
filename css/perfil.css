@@ -1,0 +1,45 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+}
+
+.container{
+    margin: 100px;
+    width: 100%;
+}
+header{
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    border: 1px solid rgb(216, 215, 215);
+}
+
+.sair{
+    background-color: var(--blue);
+    padding: 10px;
+    border: 1px solid rgb(216, 215, 215);
+    border-radius: 10px;
+}
+.sair a{
+    text-decoration: none;
+    font-family: "Sora", sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.adicionar{
+    background-color: var(--blue);
+    font-family: "Sora", sans-serif;
+    font-size: 16px;
+    color: white;
+}

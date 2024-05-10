@@ -1,9 +1,17 @@
 #banner{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 20px 15px;
     justify-content: space-around;
     background-color: #EFEFEF;
+    gap: 10px;
+}
+figure{
+    text-align: center;
+}
+img{
+    width: 100%;
 }
 
 .texto{
@@ -11,14 +19,12 @@
     flex-direction: column;
     align-items: center;
 }
-.texto header{
-    width: 80%;
-   
-}
+
 .texto p{
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     margin: 10px 0;
+    text-align: center;
 }
 .texto .consulte{
     padding: 14px 16px;
@@ -34,8 +40,8 @@
 }
 .problemas-container{
     margin: 20px 30px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
     align-items: center;
     justify-content: center;
@@ -47,8 +53,6 @@
     align-items: center;    
     justify-content: center;
     text-align: center;
-    width: 220px;
-    height: 120px;
     padding: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
@@ -87,4 +91,53 @@
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 600;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    img{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    header{
+        font-size: 28px !important;
+    }
+    h1{
+        font-size: 18px;
+    }
+    .problemas-box .consulte-problemas{
+        padding: 4px 6px;
+    }
+    .texto p{
+        font-size: 18px;
+    }
+    .texto .consulte{
+        padding: 12px 14px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 767px){
+    header{
+        font-size: 22px !important;
+    }
+    h1{
+        font-size: 16px;
+    }
+    .texto p{
+        font-size: 14px;
+    }
+   #banner{
+    padding: 30px;
+    grid-template-columns: 1fr;
+   }
+   .banner figure img{
+    width: 70%;
+   }
+   .problemas-container{
+    grid-template-columns: 1fr;
+   }
+   .problemas-box{
+    margin: 0px 30px;
+   }
 }

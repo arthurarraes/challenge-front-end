@@ -16,7 +16,14 @@
     --light-blue : #D7E0F5;
     --grey : #4E4E4E
 }
-
+.repositorio{
+    font-size: 20px;
+    font-family: "Sora", sans-serif;
+    color: var(--blue);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
 .cabecalho{
     background-color: var(--light-blue);
     display: flex;
